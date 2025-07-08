@@ -1,93 +1,101 @@
-# 🚀 AWS Career FastTrack 5-Day Challenge
+# 🛠️ AWS Project: Scalable Infrastructure with Terraform & CI/CD
 
-Welcome to the official repository for the **AWS Career FastTrack Challenge** — a high-impact, 5-day hands-on experience designed to help you master core AWS skills, build career leverage, and get closer to your first or next cloud role.
+This is the AWS infrastructure project I built as part of the **AWS Career FastTrack 5-Day Challenge** — a hands-on program designed to help aspiring cloud engineers build real-world skills, visibility, and career leverage.
 
----
-
-## 🎯 What Is This Challenge?
-
-This challenge is a **system for building the right skills, the right relationships, and real career leverage** — all within 5 days.
-
-Instead of random tutorials, you're building a **complete, end-to-end AWS project**, supported by:
-
-- Infrastructure as Code (Terraform)
-- CI/CD (GitHub Actions)
-- Architecture design
-- Career visibility strategy
+Over 5 days, I built and deployed a complete AWS environment using **Terraform**, **GitHub Actions**, and best practices in infrastructure design — and I’m proud to showcase the results here.
 
 ---
 
-## 🗓️ Challenge Dates
+## 🚀 Project Overview
 
-**📅 July 14–18, 2025**  
-**🕕 Daily Check-ins: 6 PM – 8 PM SAST**  
-**📍 Platform: WhatsApp (with live support + accountability)**  
-**🎟️ Cost: R500 once-off (limited to 12 participants)**
+This project simulates a production-ready environment that includes:
 
----
-
-## ✅ What You’ll Walk Away With
-
-- 🚀 A complete AWS project you can speak about in interviews
-- 📂 GitHub repo showcasing Terraform + GitHub Actions
-- 🧱 Architecture diagram with clean documentation
-- 🔁 Reusable CI/CD pipeline
-- 🧠 A career blueprint and skills tracker
-- 🌍 LinkedIn presence and promotion strategy
-- 🔗 Strategic visibility to recruiters and decision-makers
+- A custom **VPC** setup with public and private subnets
+- EC2 or ECS-based application hosting
+- IAM roles and policies for secure access control
+- An S3 bucket for static asset storage or logs
+- A **CI/CD pipeline** using GitHub Actions for automated deployments
 
 ---
 
-## 📦 Project Includes
+## 💡 Why I Built This
 
-| Feature                 | Description                             |
-| ----------------------- | --------------------------------------- |
-| 🌐 VPC & Subnet Setup   | Designed with Terraform modules         |
-| 💾 S3 & EC2 / ECS       | Used as core AWS services               |
-| 🔐 IAM Roles & Policies | Infrastructure-level access control     |
-| ⚙️ CI/CD Pipeline       | Auto-deploy via GitHub Actions          |
-| 🧭 Architecture Diagram | Designed using Excalidraw or Lucidchart |
-| 📝 LinkedIn Strategy    | Day 1 & Day 5 posting templates         |
+Most cloud learners stop at theory or certifications. I wanted to:
 
----
+- Prove I could build a real AWS system from scratch
+- Gain hands-on experience with Infrastructure as Code
+- Learn how to use CI/CD to automate deployments
+- Create a **public, reviewable GitHub repo** to show to recruiters and hiring managers
 
-## 🛠 Tools Required
-
-- AWS Account
-- GitHub
-- Visual Studio Code
-- Terraform CLI
-- Git
-- Diagramming Tool (Eraser / Lucidchart / Excalidraw)
-- Google Sheets / Excel
-- LinkedIn
+This project is now a key part of my cloud portfolio — and I’ll continue building on it to grow my skills.
 
 ---
 
-## 💬 How to Join
+## 📂 Tech Stack
 
-1. **Apply using the Google Form**: [Insert link here]
-2. Wait for approval (spots are limited to 12)
-3. Complete onboarding and pay the once-off fee
-4. Get added to the private WhatsApp group
-
----
-
-## 🧠 Core Concepts Behind the Challenge
-
-- **Execution Flywheel** – Build momentum across 5 career pillars
-- **80/20 Principle** – Focus on the core AWS services that matter
-- **100-Hour Rule** – Reuse this system to build long-term advantage
+| Layer                  | Tools Used              |
+| ---------------------- | ----------------------- |
+| Infrastructure as Code | Terraform               |
+| Cloud Provider         | AWS (Free Tier)         |
+| CI/CD                  | GitHub Actions          |
+| Architecture Diagram   | Excalidraw / Lucidchart |
+| Code Editor            | VS Code                 |
+| Version Control        | Git + GitHub            |
 
 ---
 
-## 🔗 Stay Connected
+## 📸 Architecture Diagram
 
-Follow the challenge and progress on LinkedIn with the hashtag:  
-**`#AWSFastTrackChallenge`**
-
-> Led by: **Siba – Cloud & DevOps Engineer | AWS Specialist | Career Strategist**
+_Insert your architecture diagram here (Eraser / Lucidchart / Excalidraw export)_
 
 ---
 
-**📣 Promo Post Date:** Wednesday, July 9
+## 🔄 How It Works
+
+1. Infrastructure is defined in Terraform using modules and variables.
+2. On each GitHub push, a GitHub Actions workflow triggers:
+   - `terraform plan`
+   - `terraform apply` (optional manual approval)
+3. AWS services are provisioned and application deployed (EC2/ECS).
+4. Logs and metrics are available in AWS CloudWatch (optional).
+5. Output: A working environment, versioned in Git, reproducible anytime.
+
+---
+
+## 📈 What I Learned
+
+- How to structure and modularize Terraform code
+- How to use GitHub Actions for cloud deployments
+- How to plan and justify AWS architecture decisions
+- How to turn work into **career visibility** via GitHub and LinkedIn
+- The power of executing consistently using a system
+
+---
+
+## 🧭 What’s Next
+
+- Improve monitoring with CloudWatch or OpenTelemetry
+- Add RDS or DynamoDB for backend storage
+- Explore serverless architecture patterns
+- Repeat the challenge structure to build more projects
+
+---
+
+## 🧠 About the Challenge
+
+This project was built during the [AWS Career FastTrack Challenge](#), led by Siba N.. It’s a 5-day system focused on helping aspiring engineers:
+
+- Learn AWS through action
+- Build real projects with support
+- Share their work for visibility
+- Promote themselves strategically
+- Track and grow long after the challenge ends
+
+---
+
+## 📬 Let’s Connect
+
+If you're building in the cloud, let’s connect on LinkedIn:  
+[Insert your LinkedIn profile URL here]
+
+Feel free to fork this repo or reach out if you have questions!
